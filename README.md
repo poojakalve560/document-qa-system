@@ -1,8 +1,25 @@
 # Document Q&A System
 
-This project allows users to upload a PDF and ask questions from it.
+A simple AI-powered app that allows users to upload a PDF and ask questions based on its content.
 
-## How to run
+---
 
-pip install -r requirements.txt  
-streamlit run app.py
+## Features
+- Upload any PDF document
+- Extract text automatically
+- Ask questions about the document
+- Get relevant answers instantly
+
+---
+
+## Tech Stack
+- Python
+- Streamlit
+- Sentence Transformers
+- FAISS (Vector Search)
+
+---
+
+## How to Run
+
+1. Clone the repository:

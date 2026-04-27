@@ -23,3 +23,6 @@ A simple AI-powered app that allows users to upload a PDF and ask questions base
 ## How to Run
 
 1. Clone the repository:
+
+2. ## Live Demo
+https://poojakalve560-document-qa-system-app-aq5e75.streamlit.app

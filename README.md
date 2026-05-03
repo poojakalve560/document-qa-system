@@ -1,28 +1,53 @@
-# Document Q&A System
+#📄 Document Q&A System – AI-Powered PDF Question Answering App
 
-A simple AI-powered app that allows users to upload a PDF and ask questions based on its content.
+![Python](https://img.shields.io/badge/Python-Backend-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
+![Status](https://img.shields.io/badge/Project-Completed-green)
 
 ---
 
-## Features
+## 📌 Description
+An AI-powered application that allows users to upload PDF documents and ask questions based on their content. The system uses semantic search and embeddings to retrieve relevant answers efficiently.
+
+ ---
+
+## 🚀 Features
 - Upload any PDF document
-- Extract text automatically
-- Ask questions about the document
-- Get relevant answers instantly
+- Automatic text extraction
+- Semantic search using embeddings
+- Real-time question answering
+- Chat-style interface for better UX
 
 ---
 
-## Tech Stack
-- Python
-- Streamlit
-- Sentence Transformers
+## ⚙️ How It Works
+1. User uploads a PDF file  
+2. Text is extracted from the document  
+3. Text is divided into smaller chunks  
+4. Embeddings are created using Sentence Transformers  
+5. FAISS stores embeddings for fast search  
+6. User asks a question  
+7. Relevant chunks are retrieved and shown as answer  
+
+---
+
+## 🛠️ Tech Stack
+- Python  
+- Streamlit  
+- Sentence Transformers  
 - FAISS (Vector Search)
+  
+---
+
+## Live Demo
+https://poojakalve560-document-qa-system-app-aq5e75.streamlit.app
 
 ---
 
-## How to Run
+## 📷 Screenshot
+![App](screenshot.png)
 
-1. Clone the repository:
+---
 
-2. ## Live Demo
-https://poojakalve560-document-qa-system-app-aq5e75.streamlit.app
+## 👩‍💻 Auther
+Pooja Kalve
